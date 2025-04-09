@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>باران بر دریا - داستان تعاملی</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="داستان تعاملی باران بر دریا، جستجو در جزیره مرموز و کشف رازهای آن.">
+    <meta name="keywords" content="داستان, تعاملی, باران بر دریا, جزیره, راز, ماجراجویی">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loading" id="loading">در حال بارگذاری باران بر دریا...</div>
+    <div class="github-link"
+        style="position: fixed;z-index: 9999; bottom: 20px; right: 20px; background-color: rgba(44, 62, 80, 0.8); padding: 10px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);">
+        <a class="no-story" href="https://github.com/SystemDownTM/rain-on-sea"
+            style="color: white; text-decoration: none; font-weight: bold; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.83-.01-1.5-2.24.49-2.71-1.08-2.71-1.08-.36-.91-.88-1.15-.88-1.15-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.71 1.22 1.86.87 2.31.67.07-.51.28-.87.51-1.07-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.58.82-2.14-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.66 7.66 0 0 1 8 2.5c.68.003 1.36.092 2 .26 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.14 0 3.07-1.88 3.75-3.66 3.95.29.25.55.74.55 1.49 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38C13.71 14.53 16 11.54 16 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="section visible" id="intro">
+            <h1>باران بر دریا</h1>
+            <p>غرش رعد آسمان سیاه را می‌شکافد. تو، کاپیتان کشتی "STDPRA"، در طوفانی سهمگین گرفتار شده‌ای. امواج به کشتی
+                می‌کوبند، دکل‌ها می‌شکنند و قطب‌نما دیوانه‌وار می‌چرخد. در این لحظه، احساس می‌کنی که سرنوشت تو در دستان
+                طبیعت است.</p>
+            <p>ناگهان کشتی به ساحل جزیره‌ای ناشناخته برخورد می‌کند. باران می‌بارد و مه جزیره را پوشانده. از پنجره شکسته،
+                جنگل انبوه و ساحلی مرموز می‌بینی. در دل تو، کنجکاوی و ترس به هم می‌آمیزند.</p>
+            <div class="btn-group">
+                <a href="#island-approach"><button class="btn">به جزیره برو</button></a>
+                <a href="#stay-aboard-wait"><button class="btn">در کشتی بمان</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="island-approach">
+            <h1>ورود به جزیره</h1>
+            <p>پایت را روی شن‌های خیس می‌گذاری. صدای موج‌ها و بوی گیاهان پوسیده فضا را پر کرده. کشتی‌ات لاشه‌ای در ساحل
+                است. حس می‌کنی چیزی در مه تو را تماشا می‌کند. اینجا، هر لحظه می‌تواند سرنوشت تو را تغییر دهد.</p>
+            <p>سه مسیر می‌بینی: جنگل، ساحل، یا قایق شکسته‌ای در دوردست. هر کدام از این مسیرها می‌تواند تو را به
+                ماجراجویی
+                جدیدی ببرد.</p>
+            <div class="btn-group">
+                <a href="#explore-jungle"><button class="btn">به جنگل برو</button></a>
+                <a href="#explore-coastline"><button class="btn">به ساحل برو</button></a>
+                <a href="#broken-boat"><button class="btn">قایق شکسته را بررسی کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="stay-aboard-wait">
+            <h1>پناه در کشتی</h1>
+            <p>در کشتی می‌مانی. صدای چوب‌های شکسته و چکیدن آب وهم‌آلود است. گرسنگی و تشنگی فشار می‌آورد و طوفانی جدید در
+                راه است. در این سکوت، افکار تو به سمت آینده‌ای نامعلوم می‌رود.</p>
+            <div class="btn-group">
+                <a href="#salvage-ship"><button class="btn">کشتی را بگرد</button></a>
+                <a href="#storm-death-ending"><button class="btn">منتظر بمان</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="salvage-ship">
+            <h1>جستجو در کشتی</h1>
+            <p>جعبه‌ای فلزی پیدا می‌کنی: غذای کنسروی، کبریت، چاقو و قطب‌نما. صدایی ناشناخته از دور تو را می‌خواند. این
+                صدا تو را به سمت رازهای پنهان جزیره می‌کشاند.</p>
+            <div class="btn-group">
+                <a href="#island-approach"><button class="btn">به جزیره برو</button></a>
+                <a href="#escape-island-ending"><button class="btn">کلک بساز و فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="broken-boat">
+            <h1>قایق شکسته</h1>
+            <p>به قایق قدیمی می‌رسی. داخلش نقشه پارچه‌ای و طلسم باستانی با نقش موج پیدا می‌کنی. مه سمی در حال نزدیک شدن
+                است. این قایق، کلید ورود به دنیای ناشناخته است.</p>
+            <div class="btn-group">
+                <a href="#use-talisman"><button class="btn">طلسم را استفاده کن</button></a>
+                <a href="#follow-map"><button class="btn">نقشه را دنبال کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="use-talisman">
+            <h1>قدرت طلسم</h1>
+            <p>طلسم را لمس می‌کنی. نوری از آن ساطع می‌شود و مه سمی عقب می‌رود. صدایی می‌گوید: «به معبد بیا.» این صدا
+                تو را به سمت سرنوشتت هدایت می‌کند.</p>
+            <div class="btn-group">
+                <a href="#hidden-temple"><button class="btn">به معبد برو</button></a>
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="follow-map">
+            <h1>نقشه پارچه‌ای</h1>
+            <p>نقشه تو را به گنج مدفونی هدایت می‌کند: جعبه‌ای پر از طلا و کریستال تیره. طوفان دوم نزدیک می‌شود. آیا
+                می‌توانی از این فرصت استفاده کنی؟</p>
+            <div class="btn-group">
+                <a href="#keep-crystal"><button class="btn">کریستال را بردار</button></a>
+                <a href="#escape-island-ending"><button class="btn">با گنج فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="explore-jungle">
+            <h1>اعماق جنگل</h1>
+            <p>وارد جنگل می‌شوی. نور کم است و صداهای عجیب می‌شنوی. به چشمه‌ای می‌رسی و آب می‌نوشی. مسیر پاکوب، غار، و
+                بومیانی در دوردست دیده می‌شوند. اینجا، هر قدم می‌تواند تو را به کشف جدیدی برساند.</p>
+            <div class="btn-group">
+                <a href="#follow-path"><button class="btn">مسیر پاکوب را برو</button></a>
+                <a href="#enter-cave"><button class="btn">به غار برو</button></a>
+                <a href="#meet-natives"><button class="btn">به بومیان نزدیک شو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="explore-coastline">
+            <h1>امتداد ساحل</h1>
+            <p>در ساحل قدم می‌زنی. صخره‌ها تیزند. به خلیج می‌رسی و کلبه‌ای متروکه می‌بینی. موجود دریایی از آب بیرون
+                می‌آید. آیا این موجود دوست است یا دشمن؟</p>
+            <div class="btn-group">
+                <a href="#investigate-hut"><button class="btn">کلبه را بررسی کن</button></a>
+                <a href="#fight-creature"><button class="btn">با موجود بجنگ</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="fight-creature">
+            <h1>مواجهه با هیولا</h1>
+            <p>موجودی با شاخک‌ها به تو حمله می‌کند. با چاقو می‌جنگی، اما زخمی می‌شوی. آیا می‌توانی از این نبرد جان سالم
+                به در ببری؟</p>
+            <div class="btn-group">
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+                <a href="#island-claim-ending"><button class="btn">تسلیم شو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="investigate-hut">
+            <h1>کلبه متروکه</h1>
+            <p>وارد کلبه می‌شوی. خط‌خطی‌ها و دفترچه‌ای می‌بینی: «او در مه می‌بیند.» صندوقچه‌ای کوچک هم هست. آیا این
+                یادداشت‌ها می‌توانند تو را راهنمایی کنند؟</p>
+            <div class="btn-group">
+                <a href="#open-chest"><button class="btn">صندوقچه را باز کن</button></a>
+                <a href="#read-journal"><button class="btn">دفترچه را بخوان</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="open-chest">
+            <h1>گنجینه یا نفرین</h1>
+            <p>صندوقچه را باز می‌کنی: سکه، قطب‌نما، و کریستال تیره. کریستال نور می‌دهد و صدایی ناشناخته می‌شنوی. آیا
+                این گنج تو را به سرنوشتت نزدیک‌تر می‌کند؟</p>
+            <div class="btn-group">
+                <a href="#keep-crystal"><button class="btn">کریستال را بردار</button></a>
+                <a href="#escape-island-ending"><button class="btn">با قطب‌نما فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="keep-crystal">
+            <h1>قدرت کریستال</h1>
+            <p>کریستال را برمی‌داری. نورش قوی‌تر می‌شود و صداها در ذهنت می‌پیچند. آیا می‌توانی از این قدرت برای نجات
+                خود استفاده کنی؟</p>
+            <div class="btn-group">
+                <a href="#hidden-temple"><button class="btn">به معبد برو</button></a>
+                <a href="#island-claim-ending"><button class="btn">تسلیم کریستال شو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="read-journal">
+            <h1>یادداشت‌های گمشده</h1>
+            <p>می‌خوانی: «جزیره زنده است... کریستال نفرین است...» نوشته‌ها قطع می‌شوند. آیا این جزیره رازهای بیشتری
+                در دل خود دارد؟</p>
+            <div class="btn-group">
+                <a href="#follow-path"><button class="btn">به جنگل برو</button></a>
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="meet-natives">
+            <h1>بومیان جزیره</h1>
+            <p>به بومیان نزدیک می‌شوی. آنها با نیزه تو را محاصره می‌کنند، اما یکی می‌گوید: «بیا یا بمیر.» آیا می‌توانی
+                با آنها ارتباط برقرار کنی؟</p>
+            <div class="btn-group">
+                <a href="#native-rescue-ending"><button class="btn">با آنها برو</button></a>
+                <a href="#island-claim-ending"><button class="btn">مقاومت کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="follow-path">
+            <h1>مسیر باستانی</h1>
+            <p>در مسیر پاکوب می‌روی. به محوطه‌ای با سنگ کنده‌کاری‌شده می‌رسی. مه سمی نزدیک می‌شود. آیا می‌توانی از
+                اینجا فرار کنی؟</p>
+            <div class="btn-group">
+                <a href="#examine-stone"><button class="btn">سنگ را بررسی کن</button></a>
+                <a href="#path-uphill"><button class="btn">به تپه برو</button></a>
+                <a href="#path-downhill"><button class="btn">به دره برو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="examine-stone">
+            <h1>راز سنگ</h1>
+            <p>سنگ را لمس می‌کنی. لرزشی حس می‌کنی و راه‌پله‌ای به اعماق باز می‌شود. آیا این راه تو را به حقیقت می‌برد؟
+            </p>
+            <div class="btn-group">
+                <a href="#descend-stairs"><button class="btn">پایین برو</button></a>
+                <a href="#lost-in-fog-ending"><button class="btn">فرار کن، اما مه تو را می‌بلعد</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="path-uphill">
+            <h1>تپه خاموش</h1>
+            <p>به تپه می‌رسی. ساختمان سنگی و دایره‌ای از سنگ‌ها می‌بینی. صدای ناشناخته قوی‌تر است. آیا می‌توانی
+                به رازهای این مکان پی ببری؟</p>
+            <div class="btn-group">
+                <a href="#hidden-temple"><button class="btn">به معبد برو</button></a>
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="path-downhill">
+            <h1>دره فراموش‌شده</h1>
+            <p>به دره می‌رسی. گیاهان درخشان و چاه سنگی با زمزمه‌ای عجیب می‌بینی. آیا می‌توانی از اینجا جان سالم به در
+                ببری؟</p>
+            <div class="btn-group">
+                <a href="#enter-cave"><button class="btn">به غار برو</button></a>
+                <a href="#sacrifice-ending"><button class="btn">خود را در چاه فدا کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="enter-cave">
+            <h1>درون تاریکی</h1>
+            <p>وارد غار می‌شوی. صدای خش‌خش می‌شنوی. موجودی عظیم نزدیک می‌شود. آیا می‌توانی از این موجود فرار کنی؟</p>
+            <div class="btn-group">
+                <a href="#cave-deeper"><button class="btn">به عمق برو</button></a>
+                <a href="#cave-escape"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="cave-deeper">
+            <h1>مواجهه با ناشناخته</h1>
+            <p>موجودی عظیم تو را می‌بیند. دیگر راهی نیست. آیا می‌توانی با شجاعت با آن مواجه شوی؟</p>
+            <div class="btn-group">
+                <a href="#island-claim-ending"><button class="btn">تسلیم شو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="cave-escape">
+            <h1>فرار از غار</h1>
+            <p>از غار می‌دوی و به جنگل می‌رسی. خطر نزدیک بود. آیا می‌توانی از اینجا فرار کنی و به زندگی ادامه دهی؟</p>
+            <div class="btn-group">
+                <a href="#follow-path"><button class="btn">مسیر را ادامه بده</button></a>
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="hidden-temple">
+            <h1>معبد مخفی</h1>
+            <p>به معبدی باستانی می‌رسی. دیوارها پر از کنده‌کاری و وسط آن محرابی با کریستال بزرگ است. آیا می‌توانی
+                قدرت این معبد را درک کنی؟</p>
+            <div class="btn-group">
+                <a href="#touch-altar"><button class="btn">کریستال محراب را لمس کن</button></a>
+                <a href="#escape-island-ending"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="touch-altar">
+            <h1>محراب قدرت</h1>
+            <p>کریستال را لمس می‌کنی. نوری عظیم تو را فرا می‌گیرد و قدرت جزیره در دستانت جاری می‌شود. آیا می‌توانی از
+                این قدرت برای تغییر سرنوشت خود استفاده کنی؟</p>
+            <div class="btn-group">
+                <a href="#king-of-island-ending"><button class="btn">پادشاه جزیره شو</button></a>
+                <a href="#new-world-ending"><button class="btn">از دروازه عبور کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="descend-stairs">
+            <h1>اعماق زمین</h1>
+            <p>به تالاری با حوضچه مایع درخشان و دروازه سنگی می‌رسی. آیا می‌توانی از اینجا به دنیای جدیدی وارد شوی؟</p>
+            <div class="btn-group">
+                <a href="#touch-liquid"><button class="btn">مایع را لمس کن</button></a>
+                <a href="#examine-gate"><button class="btn">دروازه را بررسی کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="examine-gate">
+            <h1>آخرین تلاش</h1>
+            <p>دروازه باز نمی‌شود. زمین می‌لرزد و سقف فرو می‌ریزد. آیا می‌توانی در این لحظه سرنوشت خود را تغییر دهی؟</p>
+            <div class="btn-group">
+                <a href="#touch-liquid"><button class="btn">مایع را لمس کن</button></a>
+                <a href="#dream-ending-revised"><button class="btn">فرار کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="touch-liquid">
+            <h1>نور یا تاریکی</h1>
+            <p>مایع را لمس می‌کنی. نور کورکننده‌ای دروازه را باز می‌کند. آیا می‌توانی از این نور برای نجات خود استفاده
+                کنی؟</p>
+            <div class="btn-group">
+                <a href="#new-world-ending"><button class="btn">از دروازه برو</button></a>
+                <a href="#island-claim-ending"><button class="btn">تسلیم نور شو</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="new-world-ending">
+            <h1>فراسوی دروازه</h1>
+            <p>به دنیایی با آسمان رنگارنگ و گیاهان درخشان می‌رسی. ماجرا تازه شروع شده. آیا می‌توانی در این دنیای جدید
+                زندگی جدیدی بسازی؟</p>
+            <p><strong>پایان: دنیای جدید</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="escape-island-ending">
+            <h1>بازگشت به دریا</h1>
+            <p>کلک می‌سازی و فرار می‌کنی. کشتی ماهیگیری تو را نجات می‌دهد، اما جزیره در ذهنت مانده. آیا می‌توانی از
+                این تجربه درس بگیری؟</p>
+            <p><strong>پایان: فرار</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="island-claim-ending">
+            <h1>جذب جزیره</h1>
+            <p>نور یا تاریکی تو را می‌بلعد. بخشی از جزیره می‌شوی. آیا می‌توانی با این سرنوشت کنار بیایی؟</p>
+            <p><strong>پایان: تسلیم</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="dream-ending-revised">
+            <h1>بیداری؟</h1>
+            <p>در کشتی بیدار می‌شوی. کابوس بود؟ اما سنگی عجیب در جیبت است. آیا این واقعیت است یا رویا؟</p>
+            <p><strong>پایان: واقعیت یا رویا</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="king-of-island-ending">
+            <h1>پادشاه جزیره</h1>
+            <p>قدرت جزیره را می‌گیری. بومیان به تو تعظیم می‌کنند و مه در فرمانت است. آیا می‌توانی با این قدرت به
+                خوبی رفتار کنی؟</p>
+            <p><strong>پایان: سلطنت</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="storm-death-ending">
+            <h1>مرگ در طوفان</h1>
+            <p>طوفان دوم می‌رسد. کشتی نابود می‌شود و تو در امواج غرق می‌شوی. آیا این پایان توست؟</p>
+            <p><strong>پایان: مرگ</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="native-rescue-ending">
+            <h1>نجات توسط بومیان</h1>
+            <p>بومیان تو را به دهکده‌شان می‌برند. با آنها زندگی جدیدی شروع می‌کنی. آیا می‌توانی در این زندگی جدید
+                خوشبخت باشی؟</p>
+            <p><strong>پایان: نجات</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="lost-in-fog-ending">
+            <h1>گمشده در مه</h1>
+            <p>مه سمی تو را در بر می‌گیرد. برای همیشه در جزیره سرگردان می‌مانی. آیا می‌توانی از این سرنوشت فرار کنی؟</p>
+            <p><strong>پایان: سرگردانی</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+
+        <div class="section" id="sacrifice-ending">
+            <h1>فداکاری</h1>
+            <p>خود را در چاه می‌اندازی. زمزمه‌ها قطع می‌شوند و جزیره آرام می‌گیرد. آیا این فداکاری تو را نجات می‌دهد؟
+            </p>
+            <p><strong>پایان: قربانی</strong></p>
+            <div class="btn-group">
+                <a href="#intro"><button class="btn">دوباره شروع کن</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
