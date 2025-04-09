@@ -1,7 +1,7 @@
 
 # Rain Over the Sea - Interactive Story Game
 
-![Rain Over the Sea](image.png)  
+![Rain Over the Sea](assets/image.png)  
 *(Replace the placeholder with a screenshot or banner if available)*
 
 ## Overview
